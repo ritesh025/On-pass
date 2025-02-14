@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# On-pass || Password Manager
+On-Pass is a secure and user-friendly password manager built using Next.js, Clerk, Tailwind CSS, and ShadCN UI. This project ensures safe password storage and retrieval while providing a sleek and modern UI.
 
-First, run the development server:
+Your simple, secure, and modern password manager! 🔒
+
+
+## 🚀Features
+🔐 Secure Authentication - Managed using Clerk for seamless user login and registration.
+
+🔑 Password Storage - Store and retrieve encrypted passwords securely.
+
+🎨 Modern UI - Styled with Tailwind CSS and ShadCN UI for a clean and accessible design.
+
+🌗 Dark Mode Support - Toggle between light and dark themes.
+
+📋 Copy to Clipboard - Easily copy stored passwords and direct visit to website.
+
+
+
+## Required Installation
+- Install create-next-app from next.js documentation in your terminal.
+```bash
+    create-next-app@latest
+ ```
+- Now create an account on Clerk for further development. This will help in login and store data.
+
+- Now install shadcn UI in terminal using its documentation.
+
+- Also install TailwindCSS for styling.
+
+- Make sure you have imported and install all the modules and functions.
+
+- Now run the code in terminal 
+``` bash
+    npm run dev 
+    or 
+    pnpm dev
+ ```
+
+
+## Setup Instructions
+
+- Setup your Clerk account to store the metadata.
+
+- Read the documentation of Tailwind CSS and Next.js for faster installation development.
+
+- Now, You can run it locally (localhost) or deploy it.
+
+
+## Run Locally
+
+To run tests, run the following command
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  npm run dev
+    or 
+  pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage Guide
+- Register/Login via Clerk authentication.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Add Passwords for various websites.
 
-## Learn More
+- Copy, View, or Delete stored passwords.
 
-To learn more about Next.js, take a look at the following resources:
+- Toggle Dark Mode for a better experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Framework:** Next.js and TypeScript
+
+**Authentication:** Clerk
+
+**Styling:** Tailwind CSS and ShadCN UI
+
+**Database:** Clerk Metadata
+
+
+## Screenshots
+
+![App Screenshot](file:///C:/Users/rites/OneDrive/Pictures/Screenshots/Screenshot%202025-02-14%20175118.png)
+
+![App Screenshot](file:///C:/Users/rites/OneDrive/Pictures/Screenshots/Screenshot%202025-02-14%20175206.png)
+
